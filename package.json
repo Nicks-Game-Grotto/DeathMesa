@@ -12,9 +12,10 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "npx @cloudflare/next-on-pages build",
-    "start": "wrangler pages dev .vercel/output",
-    "deploy": "vercel deploy",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npx @cloudflare/next-on-pages",
+    "lint": "next lint",
     "deps:upgrade": "[ -z $GITHUB_ACTIONS ] && pnpm up -L notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:update on CI'",
     "deps:link": "[ -z $GITHUB_ACTIONS ] && run-s deps:link:* || echo 'Skipping deps:update on CI'",
     "deps:unlink": "[ -z $GITHUB_ACTIONS ] && pnpm add notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:update on CI'",
