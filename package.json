@@ -12,8 +12,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "npx @cloudflare/next-on-pages build",
+    "start": "wrangler pages dev .vercel/output",
     "deploy": "vercel deploy",
     "deps:upgrade": "[ -z $GITHUB_ACTIONS ] && pnpm up -L notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:update on CI'",
     "deps:link": "[ -z $GITHUB_ACTIONS ] && run-s deps:link:* || echo 'Skipping deps:update on CI'",
@@ -56,6 +56,7 @@
     "rss": "^1.2.2"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
     "@fisch0920/config": "^1.1.2",
     "@next/bundle-analyzer": "^15.3.3",
     "@types/node": "^22.15.30",
@@ -67,7 +68,8 @@
     "eslint": "^9.28.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.5.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "wrangler": "^4.34.0"
   },
   "overrides": {
     "cacheable-request": {

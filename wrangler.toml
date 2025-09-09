@@ -1,0 +1,7 @@
+name = "death-mesa"
+compatibility_date = "2025-09-08"
+pages_build_output_dir = ".vercel/output"
+
+[vars]
+NODE_ENV = "production"
+NOTION_TOKEN = "" # Optional: only if you use a Notion integration
