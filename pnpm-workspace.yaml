@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - '@fisch0920/config'
+  - canvas
+  - core-js
+  - esbuild
+  - sharp
+  - workerd
