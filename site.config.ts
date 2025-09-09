@@ -20,7 +20,6 @@ export default siteConfig({
   twitter: '',
   github: 'Nicks-Game-Grotto',
   linkedin: '',
-  discord: 'https://discord.gg/FbzMZPTzX6',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
