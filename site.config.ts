@@ -14,12 +14,13 @@ export default siteConfig({
   author: 'Nick Grotto',
 
   // open graph metadata (optional)
-  description: 'guns and hover hotrods, cantinas and drug dens, racetracks and brothels. At the heart of the desert lies Sugar Skull City, where you arrive at Calavera Station as an exile—referred to as a Consideration.',
+  description: 'Guns and hover hotrods, cantinas and drug dens, racetracks and brothels. At the heart of the desert lies Sugar Skull City, where you arrive at Calavera Station as an exile—referred to as a Consideration.',
 
   // social usernames (optional)
   twitter: '',
   github: 'Nicks-Game-Grotto',
   linkedin: '',
+  discord: 'https://discord.gg/FbzMZPTzX6',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
